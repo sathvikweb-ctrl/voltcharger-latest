@@ -1,0 +1,35 @@
+{
+  "name": "voltcharger",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "tsx --test tests/pricing.test.ts",
+    "reset-data": "node -e \"require('fs').rmSync('data/store.json',{force:true})\""
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.4.0",
+    "@supabase/ssr": "0.8.0",
+    "@supabase/supabase-js": "2.100.0",
+    "framer-motion": "^12.23.24",
+    "leaflet": "^1.9.4",
+    "next": "^16.0.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-leaflet": "^5.0.0",
+    "three": "^0.181.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.16",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@types/three": "^0.181.0",
+    "tailwindcss": "^4.1.16",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

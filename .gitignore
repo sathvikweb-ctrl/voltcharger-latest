@@ -1,0 +1,9 @@
+node_modules
+.next
+data/store.json
+data/*.tmp
+.env
+.env.local
+.tools
+*.log
+VoltCharger-GitHub.zip
